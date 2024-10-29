@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  name: TestAgent
+  name: TestAgent2
   demands:
-  - agent.name -equals LAPTOP-MLOESTPI
+  - agent.name -equals VinTestAgent
 
 steps:
 - task: Maven@3
