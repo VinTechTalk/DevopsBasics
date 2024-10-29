@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  name: TestAgent2
+  name: TestPool
   demands:
-  - agent.name -equals VinTestAgent
+  - agent.name -equals VinTestAgent4
 
 steps:
 - task: Maven@3
