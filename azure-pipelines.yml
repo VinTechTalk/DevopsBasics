@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: TestAgent
+  name: Default
   demands:
   - agent.name -equals LAPTOP-MLOESTPI
 
