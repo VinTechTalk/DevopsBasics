@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: TestAgent
+  name: Default
   demands:
   - agent.name -equals LAPTOP-MLOESTPI
 
@@ -22,5 +22,3 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-
-
